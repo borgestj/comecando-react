@@ -1,8 +1,9 @@
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: './app/App.js',
   output: {
-    filename: "public/bundle.js"
+    filename: "bundle.js"
+    //path: './dist'
   },
   module: {
     rules: [
